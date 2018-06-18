@@ -17,10 +17,8 @@ export class PresentationCard extends React.Component {
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                console.log(xmlhttp.responseText);
                 var clase = JSON.parse(xmlhttp.responseText);
                 console.log(clase);
-                
             }else{
                 console.log(xmlhttp.status);
                 console.log(xmlhttp.readyState);
