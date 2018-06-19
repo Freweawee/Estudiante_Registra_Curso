@@ -9,6 +9,10 @@ export class PresentationCard extends React.Component {
             clase : ""
         }
     }
+
+    buildPresentationCard() {
+        
+    }
     
     componentDidMount(){
         var params = new URLSearchParams(location.search.slice(1));
