@@ -25,7 +25,7 @@
             'Materia' => $result_class['Materia'],
             'Titulo' => $result_class['Titulo'],
             'Descripcion' => $result_class['Descripcion'],
-            'fecha' => $result_class['fecha'],
+            'Fecha' => $result_class['fecha'],
             'NombreT' => $result_tutor['NombreT'],
             'ApellidosT' => $result_tutor['ApellidosT'],
             'PerfilT' => $result_tutor['PerfilT']

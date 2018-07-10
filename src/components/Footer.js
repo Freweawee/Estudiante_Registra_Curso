@@ -5,16 +5,11 @@ export class Footer extends React.Component {
 
     render(){
         return(
-            <footer className="page-footer">
-                <div className="row">
-                    <div className="col m2">
-                        <span>© 2018 Universidad del Biobio</span>
-                    </div>
-                </div>
-                <div className="footer-copyright">
-                    <div className="container">
-                        <span>© 2014 Copyright Text</span>
-                    </div>
+            <footer className="footer">
+                <div className="container">
+                    <span className="class">
+                        © 2018 Universidad del Biobio
+                    </span>
                 </div>
             </footer>
         );
